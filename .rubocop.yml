@@ -1,0 +1,7 @@
+GlobalVars:
+  AllowedVariables:
+    - $redis
+    - $storage
+AllCops:
+  Exclude:
+    - './spec/**/**/**'
